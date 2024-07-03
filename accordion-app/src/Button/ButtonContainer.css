@@ -1,0 +1,22 @@
+.ButtonContainer {
+    margin-bottom: 20px;
+  }
+.heading{
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+  .ButtonContainer button {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .ButtonContainer button.active {
+    border: 3px solid green; 
+  }
+  
